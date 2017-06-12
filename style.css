@@ -1,0 +1,63 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  background-color: #144e9b;
+}
+
+.header-logo {
+  width: 20em;
+  height: auto;
+  margin: 1em 0 0 1em;
+}
+
+.text-header {
+  font-size: xx-large;
+}
+
+a,
+.contact-text {
+  font-size: x-large;
+  padding: 1em 1em;
+  font-weight: bold;
+}
+
+.error-text {
+  width: 75%;
+  margin: 0 auto;
+  font-size: x-large;
+}
+
+hr {
+  border: 0.2em solid #ff7218;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  min-height: 4em;
+  background-color: #144e9b;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
